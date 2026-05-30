@@ -18,6 +18,9 @@ services:
       TZ: "Asia/Tokyo"
     volumes:
       - ../nn-chat-db:/var/lib/postgresql/data
-      
+
+
+
+
 volumes:
   node_modules:
