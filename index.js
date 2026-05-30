@@ -14,7 +14,7 @@ const server = http.createServer(basic.check((req, res) => {
 .on('error' , e => {
   console.error('Server Error' ,e);
 })
-.on('clientErro' , e => {
+.on('clientError' , e => {
   console.error('Client Error' , e);
 });
 
